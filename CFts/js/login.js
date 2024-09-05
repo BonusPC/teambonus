@@ -4,7 +4,7 @@ function Login() {
 
     if (Username === "ahai" && Password === "ahai1992") {
         alert("Login successful!");
-        window.location.href = "front.html";
+        window.location.href = "./index/front.html";
     } else {
         alert("Username or password not correct, please check again.");
     }
