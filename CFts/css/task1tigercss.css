@@ -1,0 +1,191 @@
+.container {
+    display: flex;
+  }
+  td, th {
+    max-width: 120px; /* Đặt chiều rộng tối đa cho ô */
+    word-wrap: break-word; /* Cho phép từ bị ngắt khi vượt quá chiều rộng */
+  }
+  #resultTable1, #resultTable2, #resultTable3 {
+    table-layout: fixed; /* Đặt bố cục bảng cố định để ô có kích thước cố định */
+  }
+  
+
+#resultTable1 th, #resultTable2 th, #resultTable3 th, #resultTable1 td, #resultTable2 td, #resultTable3 td, #resultTable4 th, #resultTable4 td{
+    border: 1px solid green;
+    padding: 1px;
+    text-align: center;
+}
+
+
+#resultTable1, #resultTable2, #resultTable3 {
+    margin-top: 0px; /* Khoảng cách giữa các bảng */
+  }
+  #resultTable4{
+  float: right;
+   width: 200px;
+  color: red;
+  margin-right: 50px;
+  }
+#resultTable1 {
+    width: 270px;
+    height: 10px;
+    margin-left: 10px;
+  }
+  
+#resultTable2 {
+    width: 500px;
+    height: 10px;
+    margin-left: 10px;
+   word-wrap: break-word; 
+  }
+  
+#resultTable3 {
+    margin-bottom: 20px;
+    margin-left: 70px;
+   width: 380px;
+    height: 10px;
+  }
+  
+#Databank {
+    width: 7%;
+    height: 800px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 5px;
+    resize: vertical;
+    float: left;
+  }
+  
+#oldlist {
+    width: 5%;
+    height: 800px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 5px;
+    resize: vertical;
+    float: right;
+   margin-left: 100px;
+  }
+  
+#Psys {
+    width: 6%;
+    height: 800px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 5px;
+    resize: vertical;
+    float: left;
+    margin-left: 10px;
+  }
+  
+.check1 {
+    margin-bottom: 20px;
+  }
+.tt3{
+  width: 150px;
+  }
+.tt4{
+  width: 120px;
+  }
+.tt1{
+  width: 150px;
+  }
+  .ttt1{
+  width: 160px;
+  }
+.ttt4{
+  width: 140px;
+  }
+.copy{
+  margin-left: 120px;
+  }
+.check2{
+   margin-left: 200px;
+  }
+.check4{
+    margin-left: 30px;
+  }
+  #dropdownList{
+  background-color: black;
+   margin-left: 40px;
+  width: 180px;
+   border: 2px solid red;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  }
+.check3{
+  background-color: red;
+  color : yellow;
+  }
+.check1, .check2, .check4, .copy, .copy1, .copy2{
+  background-color:green;
+  color : yellow;
+  }
+.check1:hover, .check2:hover, .check3:hover, .check4:hover, .copy:hover, .copy1:hover, .copy2:hover{
+  background-color: yellow;
+  color : red;
+   border: 3px solid red;
+  }
+.check1:active, .check2:active, .check3:active, .check4:active, .copy:active, .copy1:active, .copy2:active{
+  background-color: white;
+  color : red;
+  }
+.txt1{
+  color: green;
+   margin-left: 30px;
+  font-size: 18px;
+  }
+.cl10 , .cl20, .cl30, .cl50,.cl5{
+  background-color: pink;
+  color: red;
+  }
+.lv10, .lv20, .lv30, .lv50,.lv5{
+  background-color: green;
+  color: white;
+  }
+.cl10:hover , .cl20:hover, .cl30:hover, .cl50:hover,.cl5:hover,.lv10:hover, .lv20:hover, .lv30:hover, .lv50:hover, .lv5:hover{
+  background-color: white;
+  color : red;
+  }
+.cl10:active , .cl20:active , .cl30:active , .cl50:active ,.cl5:active, .lv10:active, .lv20:active, .lv30:active, .lv50:active, .lv5:active {
+  background-color: yellow;
+  color : red;
+   border: 3px solid red;
+  }
+.txt2{
+  color: red;
+  font-size: 18px;
+   margin-left: 550px;
+   margin-right: 0px;
+  }
+  
+.cc1{
+  font-weight: bold;
+    color: red;
+    font-size: 18px;
+  margin-left: 50px;
+  }
+  
+.cc2{
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+  margin-left: 310px;
+  }
+.cc3{
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 40px;
+  }
+.lv5{
+  margin-right: 40px;
+  }
+.bn1{
+  background-color: blue;
+  color: yellow;
+  }
